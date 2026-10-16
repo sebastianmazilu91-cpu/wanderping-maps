@@ -48,7 +48,10 @@
     <li>Folosim locația exactă doar:
       <ul>
         <li>cât timp <strong>modul de explorare</strong> este pornit, ca să știm când ești aproape de obiectivele alese și să calculăm distanța mersă pe jos din jurnal;</li>
-        <li>cât timp ai deschisă o hartă din aplicație, ca să-ți arătăm poziția și distanța până la obiective.</li>
+        <li>cât timp ai deschisă o hartă din aplicație, ca să-ți arătăm poziția și distanța până la obiective;</li>
+        <li>când deschizi aplicația, ultima locație cunoscută a telefonului e folosită ca să aflăm <strong>țara</strong> în care
+          te afli, pentru lista „Țări vizitate”. Țara se calculează pe telefon, din granițele incluse în aplicație, fără internet;
+          se păstrează doar codul țării, nu poziția.</li>
       </ul>
     </li>
     <li>Cât timp explorarea e pornită, Android afișează o notificare permanentă, iar explorarea poate fi oprită oricând. Când explorarea e oprită și aplicația nu e deschisă, nu folosim locația.</li>
@@ -63,6 +66,7 @@
     <li>jurnalul: ora vizitelor, durata și distanța plimbărilor;</li>
     <li>contorul de notificări gratuite și pachetele de acces active;</li>
     <li>profilul, dacă îl completezi: numele sau porecla, culoarea avatarului, țara de origine și interesele de călătorie;</li>
+    <li>țările vizitate (coduri de țară), adăugate automat sau de tine;</li>
     <li>preferințele (temă, limbă) și hărțile offline descărcate.</li>
   </ul>
   <p>Datele stau în spațiul privat al aplicației și nu ne sunt trimise. Dacă ai activat copia de rezervă Android, sistemul
@@ -135,7 +139,10 @@
     <li>We use your precise location only:
       <ul>
         <li>while <strong>exploring</strong> is on, to know when you are near the places you picked and to calculate the walking distance shown in your journal;</li>
-        <li>while a map in the app is open, to show your position and the distance to places.</li>
+        <li>while a map in the app is open, to show your position and the distance to places;</li>
+        <li>when you open the app, the phone's last known location is used to work out the <strong>country</strong> you are in,
+          for the "Countries visited" list. The country is calculated on the phone, from borders bundled with the app, without
+          internet; only the country code is kept, not the position.</li>
       </ul>
     </li>
     <li>While exploring is on, Android shows a persistent notification, and you can stop exploring at any time. When exploring is off and the app is not open, we do not use your location.</li>
@@ -150,6 +157,7 @@
     <li>the journal: visit times, duration and distance of walks;</li>
     <li>the free-notification counter and active access passes;</li>
     <li>your profile, if you fill it in: name or nickname, avatar colour, home country and travel interests;</li>
+    <li>countries visited (country codes), added automatically or by you;</li>
     <li>preferences (theme, language) and downloaded offline maps.</li>
   </ul>
   <p>This data stays in the app's private storage and is not sent to us. If Android backup is turned on, the system may
