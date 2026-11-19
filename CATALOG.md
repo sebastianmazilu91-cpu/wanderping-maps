@@ -4,7 +4,8 @@ The catalog of cities, attractions and trips used by the WanderPing app (Android
 [Open Database License (ODbL) 1.0](https://opendatacommons.org/licenses/odbl/1-0/).
 
 Download: the `catalog-<version>` releases of this repository, one `.zip` per app version that changes the catalog
-(first: [`catalog-0.6.20`](https://github.com/sebastianmazilu91-cpu/wanderping-maps/releases/tag/catalog-0.6.20)).
+(current: [`catalog-0.6.20`](https://github.com/sebastianmazilu91-cpu/wanderping-maps/releases/tag/catalog-0.6.20), used by
+app versions 0.6.20 and 0.6.21). Each archive contains this file and the full license text (`LICENSE-ODbL.txt`).
 
 ## Contents
 
@@ -13,6 +14,7 @@ Download: the `catalog-<version>` releases of this repository, one `.zip` per ap
 | `cities.json` | The cities: name, country, region (with translations), position, map zoom, offline map file |
 | `attractions/<city>.json` | The attractions of one city: name, category, position, visit time, short and long description, hours, tickets, source |
 | `attractions/<city>.<lang>.json` | Translations of the texts above (`en`, `de`, `fr`, `es`, `it`), by attraction id |
+| `CATALOG.md`, `LICENSE-ODbL.txt` | This description and the full text of the Open Database License 1.0 |
 | `places.json` | Trips outside the walkable cities: name, category, area, country, region, position, texts, source |
 
 All files are UTF-8 JSON. Positions are WGS 84 latitude and longitude.
